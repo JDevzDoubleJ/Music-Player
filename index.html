@@ -12,12 +12,14 @@
   width: 120px;
   height: 120px;
   margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
+ border: 16px solid pink;
+  border-top-color: 16px solid pink;
+  border-bottom-color: 16px solid maroon;
+  border-left-color: 16px solid teal;
+  border-right-color: 16px solid indigo;
   border-radius: 50%;
-  border-top: 16px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
+  animation: loading 6s ease infinite;
+  }
 
 @keyframes loading {
   from {
@@ -67,7 +69,7 @@
 var myVar;
 
 function myFunction() {
-  myVar = setTimeout(showPage, 3000);
+  myVar = setTimeout(showPage, 12000);
 }
 
 function showPage() {
