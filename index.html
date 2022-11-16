@@ -20,6 +20,9 @@
   border-radius: 50%;
   animation: loading 6s ease infinite;
   }
+  .loaders {
+    background-color: black;
+  }
 
 @keyframes loading {
   from {
@@ -56,7 +59,7 @@
 }
 </style>
 </head>
-<body onload="myFunction()" style="margin:0;">
+<body class="loaders" onload="myFunction()" style="margin:0;">
 
 <div id="loader"></div>
 
