@@ -1,8 +1,8 @@
 let songs = [
     {
-        name: 'Bohemian Rhapsody',
-        src: 'assets/songs/song1.mp3',
-        cover: 'assets/images/song1.jpg',
+        name: 'Umaasa Official Music',
+        src: 'https://github.com/JDevzDoubleJ/Underdevelopment/blob/main/CALEIN%20-%20Umaasa%20%5BOfficial%20Lyric%20Video%5D.mp3?raw=true',
+        cover: 'https://raw.githubusercontent.com/JDevzDoubleJ/Project-404/main/FB_IMG_1667908447453.jpg',
         artist: 'Queen',
         lyrics: "6 | Mamaaa 9\n | Just killed a man\n 13 | Put a gun against his head, pulled my trigger\n17 | Now he's dead\n19.5 | Mamaaa, life had just begun,\n26.4 | But now I've gone and thrown it all away\n33 | Mama, oooh,\n39.5 | Didn't mean to make you cry,\n43 | If I'm not back again this time tomorrow,\n47.8 | Carry on, carry on as if nothing really matters \n64 | Too late, my time has come,\n71 | Sends shivers down my spine \n74 |  body's aching all The time \n78 |  Goodbye, everybody\n81 |  I've got to go \n84.7 |  Gotta leave you all behind and face the truth\n91.7 |  Mama, oooh\n98 | I don't want to die\n101 | I sometimes wish I'd never been born at all",
     },
