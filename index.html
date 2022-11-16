@@ -19,15 +19,15 @@
   animation: spin 2s linear infinite;
 }
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+@keyframes loading {
+  from {
+  transform: rotate(0turn);
+  }
+  to {
+  transform: rotate(100turn);
+  }
+  }
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 
 /* Add animation to "page content" */
 .animate-bottom {
